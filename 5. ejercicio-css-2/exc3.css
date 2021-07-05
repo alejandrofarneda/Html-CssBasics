@@ -1,0 +1,28 @@
+form {
+    display: grid;
+    justify-content: center;
+    text-align: left;
+    max-width: 800px;
+    min-width: 400px;
+}
+#nombre, #email {
+    border: solid red;
+}
+fieldset {
+    border: solid rgb(206, 212, 214);
+    padding: 1rem;
+    
+}
+fieldset:hover{
+    background-color: rgba(76, 86, 116, 0.685);
+}
+.nth {
+    border-bottom: solid 5px black;
+    
+
+}
+button {
+    background-color: black;
+    color: white;
+    border: none;
+}

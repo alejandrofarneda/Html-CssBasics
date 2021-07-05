@@ -1,0 +1,32 @@
+
+.impar {
+    text-decoration: underline rgb(108, 219, 98);
+}
+.list ul {
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+.list li {
+   list-style-type: none;
+   display: inline;
+   padding-right: 10px;
+}
+.emoji::after {
+    content: "🎌";
+}
+.impar::after {
+    content: "🎌";
+}
+
+#provincias {
+    list-style: upper-roman;
+}
+.azul {
+    background-color: rgb(41, 41, 255);
+    font-size: large;
+    text-transform: uppercase;
+    list-style: disc;
+}

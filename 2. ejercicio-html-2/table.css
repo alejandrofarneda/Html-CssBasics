@@ -1,0 +1,27 @@
+table {
+  font-family: 'Lucida Grande';
+  font-size: large;
+  padding: 0,5rem;
+  border-color: #999;
+  border-right-color: black;
+  border-bottom-color: black;
+  border-style: ridge;
+}
+td, th {
+  border: 1px solid #999;
+  border-top-color: black ;
+  border-left-color: black;
+  padding: 0.5rem;
+  
+}
+th {
+    font-weight: bolder;
+    text-align: center;
+}
+tfoot {
+    font-weight: bolder;
+    
+}
+td {
+    text-align: left;
+}
